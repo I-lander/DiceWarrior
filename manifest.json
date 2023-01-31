@@ -1,0 +1,14 @@
+{
+    "short_name": "DiceWarrior",
+    "name": "DiceWarrior",
+    "icons": [
+      {
+        "src": "./src/images/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "./index.html",
+    "display": "fullscreen",
+    "orientation": "landscape"
+  }
