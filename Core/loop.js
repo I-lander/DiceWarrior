@@ -32,3 +32,19 @@ export function loop(timestamp) {
   pauseDelta = 0;
   requestAnimationFrame(loop);
 }
+
+var diceFace = {
+  top : 1,
+  bottom : 6,
+  up : 3,
+  down : 4,
+  left : 5,
+  right : 2
+}
+
+if(mouvingUp){
+  diceFace.top = diceFace.down;
+  diceFace.bottom = diceFace.up;
+  diceFace.up = diceFace.top;
+  diceFace.down = diceFace.bottom
+}
